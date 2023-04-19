@@ -19,7 +19,7 @@ public class Sampleprogram {
 		
 		driver.manage().windows().maximize();
 			
-		
+		driver.get ("https://www.Amazon.com/");
 		
 		
 	}
