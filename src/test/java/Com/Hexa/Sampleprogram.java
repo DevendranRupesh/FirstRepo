@@ -17,7 +17,6 @@ public class Sampleprogram {
 		ops.addArguments("--remote-allow-origins=*");
 		WebDriver driver=new ChromeDriver(ops);
 		
-		driver.get("https://www.amazon.com/");
 		driver.get ("https://www.facebook.com/");
 		driver.manage().window().fullscreen();
 		WebElement txtuser = driver.findElement(By.id("email"));
